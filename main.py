@@ -8,7 +8,7 @@ from db import Session, User, Task
 from utils import get_or_create_user
 import os
 
-BOT_TOKEN = os.environ.get("7876356454:AAGUWe6WWUcWLy9E4CrkuamXzU1K1uFarNg")
+BOT_TOKEN = os.environ.get("7835423403:AAFXzA4ieCone_309bA6HD1sDsNkbSfY7jg")
 ADMIN_IDS = [1489701727]  # Replace with your Telegram ID
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
